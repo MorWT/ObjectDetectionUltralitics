@@ -1,0 +1,16 @@
+# Paths
+data:
+  dataset_path: '/Users/mortzabari/Documents/GitHub/FinalProjectDS/Data/images'
+  output_split_data_path: '/Users/mortzabari/Documents/GitHub/FinalProjectDS/Data/split_images'
+  labels_path: '/Users/mortzabari/Documents/GitHub/FinalProjectDS/Data/meta/labels.txt'
+  data_yaml_path: '/Users/mortzabari/Documents/GitHub/FinalProjectDS/config/data.yaml'
+  output_path: '/Users/mortzabari/Documents/GitHub/FinalProjectDS/Output'
+  nutritional_data: '/Users/mortzabari/Documents/GitHub/FinalProjectDS/Data/nutrition.csv'
+  nutritional_output_path: '/Users/mortzabari/Documents/GitHub/FinalProjectDS/config/output_nutritional_data.yaml'
+
+# Dataset split ratios
+split_ratios:
+  train: 0.7
+  val: 0.2
+  test: 0.1
+

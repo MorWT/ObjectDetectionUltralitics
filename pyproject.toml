@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "finalprojectds"
+version = "0.1.0"
+description = ""
+authors = ["MorWainberg <mor.wainberg.97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ultralytics = "^8.3.25"
+opencv-python-headless = "^4.10.0.84"
+numpy = "^1.23"
+pyyaml = "^6.0.2"
+pillow = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
